@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a0d0b">
+<title>WEBJN PICKLEBALL ACADEMY | Train. Compete. Evolve.</title>
+<style>
+:root{--bg:#080b09;--panel:#111713;--panel2:#171f19;--neon:#c5ff35;--neon2:#9bd61f;--text:#f4f7f1;--muted:#a2aca3;--line:#29332b;--danger:#ff6b6b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(1160px,92%);margin:auto}.topbar{border-bottom:1px solid var(--line);background:#080b09eF;position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:.05em}.logo{width:42px;height:42px;border-radius:12px;background:var(--neon);color:#10140b;display:grid;place-items:center;font-weight:1000;font-size:17px;transform:skew(-7deg)}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:.2em;margin-top:-3px}.links{display:flex;gap:25px;color:#d8dfd7;font-size:14px}.links a:hover{color:var(--neon)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--neon);color:#10150b;font-weight:900;border:0;border-radius:7px;padding:13px 19px;transition:.2s}.btn:hover{background:#dcff8c;transform:translateY(-1px)}.btn.secondary{background:transparent;color:var(--text);border:1px solid #53604f}.btn.secondary:hover{border-color:var(--neon);color:var(--neon)}.menu-btn{display:none;background:none;color:white;border:1px solid var(--line);border-radius:7px;padding:8px 12px}.hero{position:relative;overflow:hidden;min-height:590px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(5,8,6,.98) 0%,rgba(5,8,6,.86) 48%,rgba(5,8,6,.25) 100%),url('https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=2000&q=85') center/cover}.hero:after{content:"";position:absolute;right:-110px;bottom:-230px;width:500px;height:500px;border:1px solid #c5ff3540;border-radius:50%;box-shadow:0 0 0 45px #c5ff3510,0 0 0 90px #c5ff3508;pointer-events:none}.hero-content{position:relative;z-index:1;padding:85px 0;max-width:720px}.eyebrow{color:var(--neon);font-size:12px;font-weight:900;letter-spacing:.22em;text-transform:uppercase}.hero h1{font-size:clamp(42px,7vw,84px);line-height:.98;letter-spacing:-.055em;margin:20px 0}.hero h1 span{color:var(--neon)}.hero p{max-width:540px;color:#c4ccc3;font-size:17px;margin:0 0 27px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-meta{display:flex;gap:30px;margin-top:42px;flex-wrap:wrap}.meta strong{display:block;font-size:22px}.meta span{font-size:12px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}.ticker{border-top:1px solid #35402e;border-bottom:1px solid #35402e;background:var(--neon);color:#11170a;overflow:hidden;font-weight:1000;letter-spacing:.14em;font-size:12px}.ticker .wrap{display:flex;justify-content:space-between;gap:20px;padding:13px 0;flex-wrap:wrap}section{padding:82px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:30px}.section-head h2{font-size:clamp(30px,4vw,48px);line-height:1.05;letter-spacing:-.04em;margin:8px 0 0}.section-head p{color:var(--muted);max-width:430px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.course{background:var(--panel);border:1px solid var(--line);border-radius:13px;overflow:hidden;transition:.2s}.course:hover{border-color:#7b9d3d;transform:translateY(-3px)}.course-image{height:190px;background-size:cover;background-position:center;position:relative}.course-image:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#111713,transparent 70%)}.level{position:absolute;z-index:1;left:16px;top:15px;background:var(--neon);color:#11170a;border-radius:4px;padding:5px 9px;font-size:10px;font-weight:1000;letter-spacing:.12em}.course-body{padding:20px}.course h3{margin:0 0 8px;font-size:21px}.course p{color:var(--muted);font-size:14px;min-height:44px;margin:0 0 17px}.course-details{display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding-top:14px;font-size:13px}.course-details strong{color:var(--neon)}.schedule{background:#0d120e}.schedule-table{width:100%;border-collapse:collapse;border:1px solid var(--line);background:var(--panel);border-radius:10px;overflow:hidden}.schedule-table th,.schedule-table td{text-align:left;padding:16px 18px;border-bottom:1px solid var(--line);font-size:14px}.schedule-table th{color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;background:#151c16}.schedule-table tr:last-child td{border-bottom:0}.seats{color:var(--neon);font-weight:800}.seats.full{color:var(--danger)}.small-btn{background:transparent;color:var(--neon);border:1px solid #50623a;border-radius:5px;padding:8px 12px;font-weight:800}.small-btn:hover{background:#c5ff3518}.split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:25px}.panel h3{font-size:25px;margin:0 0 8px}.panel>p{color:var(--muted);margin:0 0 20px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:12px;color:#c5cec4;font-weight:800}.field input,.field select,.field textarea{width:100%;background:#090d0a;border:1px solid #354035;color:var(--text);border-radius:6px;padding:12px;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--neon)}.note{font-size:12px;color:var(--muted);margin-top:12px}.status{display:none;border-radius:7px;padding:12px;margin-top:14px;font-size:14px}.status.show{display:block}.status.ok{background:#20311a;color:#dfffaa;border:1px solid #55782b}.status.err{background:#351c1c;color:#ffc1c1;border:1px solid #7e3939}.admin{margin-top:18px}.admin summary{cursor:pointer;color:var(--neon);font-weight:800}.admin-content{margin-top:16px}.admin-controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:15px}.admin-controls input{background:#090d0a;border:1px solid var(--line);border-radius:6px;color:white;padding:10px}.booking-list{display:grid;gap:10px}.booking-item{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px;background:#0a0e0b;border:1px solid var(--line);border-radius:7px;font-size:13px}.booking-item small{display:block;color:var(--muted)}.delete-btn{background:transparent;border:1px solid #6d3939;color:#ffaaaa;border-radius:5px;padding:6px 9px}.feature-list{display:grid;gap:15px;margin-top:25px}.feature{display:flex;gap:13px;align-items:flex-start}.check{width:28px;height:28px;flex:none;background:#26351b;color:var(--neon);border-radius:7px;display:grid;place-items:center;font-weight:900}.feature strong{display:block}.feature span{display:block;color:var(--muted);font-size:14px;margin-top:3px}.cta{background:linear-gradient(120deg,#c5ff35,#9cd321);color:#11170a;border-radius:14px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:clamp(28px,4vw,42px);line-height:1.04;margin:0 0 8px}.cta p{margin:0;color:#2b381a}.cta .btn{background:#11170a;color:var(--neon);white-space:nowrap}.footer{padding:32px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.empty{color:var(--muted);padding:16px;border:1px dashed var(--line);border-radius:8px;font-size:13px}.pill{display:inline-block;border:1px solid #405039;color:#d8e4d2;padding:3px 8px;border-radius:99px;font-size:11px}
+@media(max-width:850px){.links{display:none;position:absolute;top:76px;left:0;right:0;background:#0c100d;padding:20px 4%;border-bottom:1px solid var(--line);flex-direction:column;gap:17px}.links.open{display:flex}.menu-btn{display:block}.nav>.btn{display:none}.hero{min-height:550px;background-position:58% center}.grid{grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.table-scroll{overflow-x:auto}.schedule-table{min-width:700px}}@media(max-width:560px){section{padding:60px 0}.grid{grid-template-columns:1fr}.course-image{height:210px}.hero-meta{gap:18px}.hero-meta .meta{min-width:90px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.cta{align-items:flex-start;flex-direction:column;padding:26px}.brand{font-size:13px}.logo{width:38px;height:38px}.hero p{font-size:15px}.booking-item{align-items:flex-start}.booking-item .delete-btn{flex:none}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="WEBJN Pickleball Academy trang chủ"><span class="logo">WJ</span><span>WEBJN PICKLEBALL<small>ACADEMY · TRAIN WITH PURPOSE</small></span></a>
+    <nav class="links" id="navLinks"><a href="#courses">KHÓA HỌC</a><a href="#schedule">LỊCH HỌC</a><a href="#about">HỌC VIỆN</a><a href="#register">ĐĂNG KÝ</a></nav>
+    <a class="btn" href="#register">ĐĂNG KÝ NGAY ↗</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Mở menu">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap"><div class="hero-content">
+    <div class="eyebrow">● THE NEXT LEVEL STARTS HERE</div>
+    <h1>PLAY HARD.<br><span>LEVEL UP.</span></h1>
+    <p>Không chỉ học cách chơi. Hãy xây dựng kỹ thuật, tư duy chiến thuật và sự tự tin trên từng đường bóng cùng WEBJN PICKLEBALL ACADEMY.</p>
+    <div class="hero-actions"><a class="btn" href="#register">TÌM LỚP PHÙ HỢP ↗</a><a class="btn secondary" href="#courses">KHÁM PHÁ KHÓA HỌC</a></div>
+    <div class="hero-meta"><div class="meta"><strong>01—03</strong><span>Trình độ học</span></div><div class="meta"><strong>SMALL GROUP</strong><span>Chú trọng từng học viên</span></div><div class="meta"><strong>YOUR GAME</strong><span>Tiến bộ mỗi buổi</span></div></div>
+  </div></div>
+</section>
+<div class="ticker"><div class="wrap"><span>WEBJN PICKLEBALL ACADEMY</span><span>TRAIN SMART · PLAY BOLD · HAVE FUN</span><span>LET'S GET ON COURT ↗</span></div></div>
+
+<section id="courses"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">FIND YOUR GAME</div><h2>CHỌN KHÓA HỌC<br>PHÙ HỢP VỚI BẠN.</h2></div><p>Dù bạn mới cầm vợt hay muốn cải thiện chiến thuật, hãy bắt đầu từ đúng cấp độ và luyện tập theo mục tiêu của mình.</p></div>
+  <div class="grid">
+    <article class="course"><div class="course-image" style="background-image:url('https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=900&q=80')"><span class="level">LEVEL 01</span></div><div class="course-body"><h3>Starter / Beginner</h3><p>Dành cho người mới. Làm quen luật chơi, cách cầm vợt, giao bóng và kỹ thuật nền tảng.</p><div class="course-details"><span>Phù hợp: Người mới</span><strong>Nhập môn</strong></div></div></article>
+    <article class="course"><div class="course-image" style="background-image:url('https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=900&q=80')"><span class="level">LEVEL 02</span></div><div class="course-body"><h3>Skills Development</h3><p>Cải thiện độ ổn định, di chuyển, kiểm soát bóng và phối hợp trong đánh đôi.</p><div class="course-details"><span>Phù hợp: Cơ bản</span><strong>Nâng kỹ năng</strong></div></div></article>
+    <article class="course"><div class="course-image" style="background-image:url('https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=900&q=80')"><span class="level">LEVEL 03</span></div><div class="course-body"><h3>Strategy & Match Play</h3><p>Luyện chiến thuật, lựa chọn cú đánh, phối hợp đồng đội và thực hành tình huống thi đấu.</p><div class="course-details"><span>Phù hợp: Đã có nền tảng</span><strong>Chiến thuật</strong></div></div></article>
+  </div>
+</div></section>
+
+<section class="schedule" id="schedule"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">PLAN YOUR SESSION</div><h2>LỊCH HỌC &amp; CHỖ TRỐNG.</h2></div><p>Chọn lớp còn chỗ và đăng ký trực tiếp trên website. Lịch bên dưới là dữ liệu mẫu, hãy cập nhật theo lịch thực tế của học viện.</p></div>
+  <div class="table-scroll"><table class="schedule-table"><thead><tr><th>Khóa học</th><th>Ngày</th><th>Giờ</th><th>Địa điểm</th><th>Chỗ còn</th><th></th></tr></thead><tbody id="scheduleBody"></tbody></table></div>
+  <p class="note">* Lịch và số chỗ trong bản chạy thử được lưu trên trình duyệt hiện tại, chưa đồng bộ giữa các thiết bị.</p>
+</div></section>
+
+<section id="about"><div class="wrap split">
+  <div><div class="eyebrow">MORE THAN A GAME</div><h2 style="font-size:clamp(34px,5vw,54px);line-height:1.02;letter-spacing:-.04em;margin:13px 0">YOUR COURT.<br><span style="color:var(--neon)">YOUR PROGRESS.</span></h2><p style="color:var(--muted);max-width:490px">WEBJN PICKLEBALL ACADEMY hướng tới môi trường tập luyện năng động, bài bản và thân thiện. Mỗi buổi học là cơ hội để bạn hiểu rõ hơn về kỹ thuật, chiến thuật và chính lối chơi của mình.</p>
+    <div class="feature-list"><div class="feature"><div class="check">✓</div><div><strong>Lộ trình theo trình độ</strong><span>Bắt đầu từ nền tảng rồi từng bước nâng độ khó.</span></div></div><div class="feature"><div class="check">✓</div><div><strong>Thực hành trên sân</strong><span>Kết hợp kỹ thuật, bài tập tình huống và chơi thực tế.</span></div></div><div class="feature"><div class="check">✓</div><div><strong>Nhóm học phù hợp</strong><span>Quản lý số lượng đăng ký để chủ động sắp xếp lớp.</span></div></div></div>
+  </div>
+  <div class="panel"><div class="eyebrow">START YOUR JOURNEY</div><h3>Bắt đầu từ buổi học đầu tiên.</h3><p>Để lại thông tin và chọn khung giờ phù hợp. Học viện sẽ xác nhận lại lịch học trước khi bạn đến sân.</p><a class="btn" href="#register" style="width:100%">ĐĂNG KÝ HỌC THỬ ↗</a><p class="note">Thay phần giới thiệu này bằng thông tin huấn luyện viên, sân tập và liên hệ chính thức khi sẵn sàng ra mắt.</p></div>
+</div></section>
+
+<section id="register" style="padding-top:20px"><div class="wrap split">
+  <div class="panel"><div class="eyebrow">BOOK YOUR SPOT</div><h3>Đăng ký học trực tuyến</h3><p>Điền thông tin bên dưới. Hệ thống mẫu sẽ giữ chỗ trong trình duyệt này và cập nhật số chỗ còn lại trên bảng lịch.</p>
+    <form id="bookingForm"><div class="form-grid">
+      <div class="field full"><label for="fullName">HỌ VÀ TÊN *</label><input id="fullName" name="fullName" required maxlength="80" placeholder="Nguyễn Văn A"></div>
+      <div class="field"><label for="phone">SỐ ĐIỆN THOẠI *</label><input id="phone" name="phone" type="tel" required maxlength="20" placeholder="09xx xxx xxx"></div>
+      <div class="field"><label for="email">EMAIL (NẾU CÓ)</label><input id="email" name="email" type="email" maxlength="100" placeholder="ban@email.com"></div>
+      <div class="field full"><label for="classId">CHỌN LỚP *</label><select id="classId" name="classId" required></select></div>
+      <div class="field full"><label for="experience">TRÌNH ĐỘ HIỆN TẠI</label><select id="experience"><option>Chưa từng chơi</option><option>Mới chơi, đang học cơ bản</option><option>Đã biết kỹ thuật nền tảng</option><option>Đã có kinh nghiệm thi đấu</option></select></div>
+      <div class="field full"><label for="message">GHI CHÚ</label><textarea id="message" rows="3" maxlength="300" placeholder="Khung giờ mong muốn hoặc câu hỏi..."></textarea></div>
+      <div class="field full"><button class="btn" type="submit" style="width:100%">GỬI ĐĂNG KÝ ↗</button></div>
+    </div></form>
+    <div class="status" id="formStatus" role="status" aria-live="polite"></div>
+    <p class="note">Bản demo lưu thông tin trong bộ nhớ cục bộ của trình duyệt. Không nhập thông tin nhạy cảm. Chưa gửi dữ liệu tới học viện.</p>
+  </div>
+  <div><div class="eyebrow">YOUR NEXT MOVE</div><h2 style="font-size:clamp(32px,4vw,45px);line-height:1.04;margin:12px 0 18px">MỘT BƯỚC NHỎ.<br><span style="color:var(--neon)">MỘT GAME TỐT HƠN.</span></h2><p style="color:var(--muted)">Sau khi kiểm tra giao diện và quy trình đăng ký, bước tiếp theo là kết nối dữ liệu thật để học viên có thể đăng ký từ điện thoại của họ và quản lý xem được danh sách tập trung.</p>
+    <div class="panel admin"><details id="adminDetails"><summary>⚙ QUẢN LÝ ĐĂNG KÝ (BẢN DEMO)</summary><div class="admin-content"><p class="note">Phần quản lý này chỉ dành cho kiểm thử trên thiết bị hiện tại, chưa có mật khẩu và không an toàn để đưa công khai.</p><div class="admin-controls"><button type="button" class="small-btn" id="exportBtn">Xuất CSV</button><button type="button" class="small-btn" id="resetBtn">Khôi phục lịch mẫu</button><button type="button" class="delete-btn" id="clearBookingsBtn">Xóa đăng ký</button></div><div id="bookingList" class="booking-list"></div></div></details></div>
+  </div>
+</div></section>
+
+<section style="padding-top:10px"><div class="wrap"><div class="cta"><div><h2>READY TO GET ON COURT?</h2><p>Chọn lớp của bạn. Phần còn lại, hãy để từng buổi tập tạo nên khác biệt.</p></div><a class="btn" href="#register">ĐĂNG KÝ NGAY ↗</a></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><div><strong style="color:var(--text)">WEBJN PICKLEBALL ACADEMY</strong><div>TRAIN SMART · PLAY BOLD · HAVE FUN</div></div><div>© <span id="year"></span> WEBJN. Website demo — cập nhật thông tin chính thức trước khi công bố.</div></div></footer>
+
+<script>
+const STORAGE_CLASSES = "webjn_demo_classes_v1";
+const STORAGE_BOOKINGS = "webjn_demo_bookings_v1";
+const defaultClasses = [
+ {id:"starter-1",name:"Starter / Beginner",day:"Thứ 3 & Thứ 5",time:"18:00–19:30",venue:"Sân tập (cập nhật)",capacity:8,price:"Liên hệ"},
+ {id:"skills-1",name:"Skills Development",day:"Thứ 4 & Thứ 6",time:"19:00–20:30",venue:"Sân tập (cập nhật)",capacity:8,price:"Liên hệ"},
+ {id:"match-1",name:"Strategy & Match Play",day:"Thứ 7",time:"08:00–10:00",venue:"Sân tập (cập nhật)",capacity:6,price:"Liên hệ"}
+];
+function load(key,fallback){try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback}catch(e){return fallback}}
+function save(key,value){localStorage.setItem(key,JSON.stringify(value))}
+function getClasses(){return load(STORAGE_CLASSES,defaultClasses)}
+function getBookings(){return load(STORAGE_BOOKINGS,[])}
+function seatsLeft(c){return Math.max(0,Number(c.capacity)-getBookings().filter(b=>b.classId===c.id).length)}
+function escapeHTML(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function render(){
+ const classes=getClasses(), bookings=getBookings();
+ const body=document.getElementById("scheduleBody"), select=document.getElementById("classId");
+ body.innerHTML=classes.map(c=>{const left=seatsLeft(c);return `<tr><td><strong>${escapeHTML(c.name)}</strong></td><td>${escapeHTML(c.day)}</td><td>${escapeHTML(c.time)}</td><td>${escapeHTML(c.venue)}</td><td><span class="seats ${left===0?"full":""}">${left===0?"ĐÃ ĐỦ":left+" / "+c.capacity+" chỗ"}</span></td><td><button class="small-btn" data-book="${escapeHTML(c.id)}" ${left===0?"disabled":""}>Chọn lớp</button></td></tr>`}).join("");
+ const current=select.value;
+ select.innerHTML='<option value="">-- Chọn khóa học --</option>'+classes.map(c=>`<option value="${escapeHTML(c.id)}" ${seatsLeft(c)===0?"disabled":""}>${escapeHTML(c.name)} · ${seatsLeft(c)===0?"Đã đủ chỗ":seatsLeft(c)+" chỗ còn"}</option>`).join("");
+ if(classes.some(c=>c.id===current&&seatsLeft(c)>0))select.value=current;
+ body.querySelectorAll("[data-book]").forEach(btn=>btn.addEventListener("click",()=>{select.value=btn.dataset.book;document.getElementById("register").scrollIntoView({behavior:"smooth"});}));
+ const list=document.getElementById("bookingList");
+ list.innerHTML=bookings.length?bookings.map(b=>{const c=classes.find(x=>x.id===b.classId);return `<div class="booking-item"><div><strong>${escapeHTML(b.fullName)}</strong><small>${escapeHTML(b.phone)} · ${escapeHTML(c?c.name:"Lớp đã xóa")}</small><small>${escapeHTML(b.createdAt)} · ${escapeHTML(b.experience||"")}</small></div><button class="delete-btn" data-delete="${escapeHTML(b.id)}">Xóa</button></div>`}).join(""):'<div class="empty">Chưa có lượt đăng ký nào trong trình duyệt này.</div>';
+ list.querySelectorAll("[data-delete]").forEach(btn=>btn.addEventListener("click",()=>{if(confirm("Xóa lượt đăng ký này?")){save(STORAGE_BOOKINGS,getBookings().filter(b=>b.id!==btn.dataset.delete));render()}}));
+}
+function showStatus(message,type){const el=document.getElementById("formStatus");el.className="status show "+type;el.textContent=message;el.scrollIntoView({behavior:"smooth",block:"nearest"})}
+document.getElementById("bookingForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ const form=e.currentTarget, classId=document.getElementById("classId").value, c=getClasses().find(x=>x.id===classId);
+ if(!c){showStatus("Vui lòng chọn một lớp học còn chỗ.","err");return}
+ if(seatsLeft(c)<=0){showStatus("Lớp này đã đủ chỗ. Vui lòng chọn lớp khác.","err");render();return}
+ const phone=document.getElementById("phone").value.trim();
+ if(phone.replace(/\D/g,"").length<9){showStatus("Vui lòng nhập số điện thoại hợp lệ.","err");return}
+ const booking={id:"WJ"+Date.now().toString(36).toUpperCase(),fullName:document.getElementById("fullName").value.trim(),phone,email:document.getElementById("email").value.trim(),classId,experience:document.getElementById("experience").value,message:document.getElementById("message").value.trim(),createdAt:new Date().toLocaleString("vi-VN")};
+ const bookings=getBookings();bookings.push(booking);save(STORAGE_BOOKINGS,bookings);render();form.reset();
+ showStatus("Đã lưu đăng ký mẫu trên trình duyệt này. Mã demo: "+booking.id+". Đây chưa phải xác nhận đặt chỗ thật; học viện cần liên hệ xác nhận.","ok");
+});
+document.getElementById("exportBtn").addEventListener("click",()=>{
+ const bookings=getBookings(), classes=getClasses();
+ if(!bookings.length){alert("Chưa có đăng ký để xuất.");return}
+ const rows=[["Ma dang ky","Ho ten","So dien thoai","Email","Khoa hoc","Trinh do","Ghi chu","Thoi gian"]];
+ bookings.forEach(b=>rows.push([b.id,b.fullName,b.phone,b.email,(classes.find(c=>c.id===b.classId)||{}).name||"",b.experience,b.message,b.createdAt]));
+ const csv="\uFEFF"+rows.map(row=>row.map(v=>'"'+String(v??"").replace(/"/g,'""')+'"').join(",")).join("\r\n");
+ const url=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8;"}));const a=document.createElement("a");a.href=url;a.download="webjn-dang-ky-hoc-vien.csv";a.click();URL.revokeObjectURL(url);
+});
+document.getElementById("resetBtn").addEventListener("click",()=>{if(confirm("Khôi phục lịch mẫu? Thao tác này không xóa đăng ký.")){localStorage.removeItem(STORAGE_CLASSES);render()}});
+document.getElementById("clearBookingsBtn").addEventListener("click",()=>{if(confirm("Xóa toàn bộ đăng ký mẫu trên trình duyệt này?")){save(STORAGE_BOOKINGS,[]);render()}});
+document.getElementById("menuBtn").addEventListener("click",()=>document.getElementById("navLinks").classList.toggle("open"));
+document.querySelectorAll("#navLinks a").forEach(a=>a.addEventListener("click",()=>document.getElementById("navLinks").classList.remove("open")));
+document.getElementById("year").textContent=new Date().getFullYear();
+render();
+</script>
+</body>
+</html>
